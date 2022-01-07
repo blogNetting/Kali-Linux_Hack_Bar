@@ -16,9 +16,9 @@ cp config/panels /home/<my_users>/.config/
 
 ### Crear una nueva barra
 Pulsa con el boton derecho en:
-´´´
+```
 Panel -> Panel Preference...
-´´´
+```
 
 Luego pulsa sobre el boton **+** para añadir un nuevo panel.
 El nuvo panel aparecerá en la esquina superior izquierda.
