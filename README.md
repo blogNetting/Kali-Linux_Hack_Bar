@@ -6,4 +6,4 @@ Este repositorio contiene scripts para crear una barra inferior en la distribuci
 
 El resultado final de la barra es el siguiente:
 
-![Ejemplo](https://raw.githubusercontent.com/blogNetting/Kali-Linux_Hack_Bar/main/images/bar.png)
+![Ejemplo](https://github.com/blogNetting/Kali-Linux_Hack_Bar/blob/main/images/bar.png)
