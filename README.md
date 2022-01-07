@@ -26,7 +26,7 @@ function settarget(){
 
 ***NOTA:** Recuerda cambiar el path a tu usuario /home/<my_user>
 
-### Crear una nueva barra
+## Crear una nueva barra
 Pulsa con el boton derecho en:
 ```
 Panel -> Panel Preference...
