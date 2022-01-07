@@ -39,6 +39,7 @@ Arrastra el panel hacia la parte inferior de la pantalla y aumenta el **Length**
 Habilita el **Lock Panel** para que la barra quede bloqueada y no se pueda mover.
 
 Te recomiendo que pongas las mismas configuraciones que las mostradas en las siguientes imagenes:
+
 ![Ejemplo](https://raw.githubusercontent.com/blogNetting/Kali-Linux_Hack_Bar/main/images/second_panel_1.png)
 ![Ejemplo](https://raw.githubusercontent.com/blogNetting/Kali-Linux_Hack_Bar/main/images/second_panel_2.png)
 
