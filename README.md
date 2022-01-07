@@ -56,6 +56,41 @@ Hay varios tipos de **separadores**. Los visibles, los transparantes, etc. En **
 
 ![Ejemplo](https://raw.githubusercontent.com/blogNetting/Kali-Linux_Hack_Bar/main/images/separator.png)
 
-Fijate bien en la imagen principal si quieres obtener el mismo resultado 
+Fijate bien en la imagen principal si quieres obtener el mismo resultado que el mostrado.
 
-### Añadir 
+### Generic Monitor
+En estos **items** es en donde se debe de indicar el path en donde se ubica el script que genera la cadena de texto con la información a mostrar:
+
+![Ejemplo](https://raw.githubusercontent.com/blogNetting/Kali-Linux_Hack_Bar/main/images/generic_monitor.png)
+
+En la caja de texto del atributo Command selecciona el path del script correspondiente:
+
+```
+1º Generic Monitor --> /home/kali/.config/panels/ethernet_status.sh
+2º Generic Monitor --> /home/kali/.config/panels/vpn_status.sh
+3º Generic Monitor --> /home/kali/.config/panels/target_status
+```
+
+En la caja de texto del atributo Label deja sobre cuatro espacios en blanco. Es por simple estética.
+
+Adapta el tiempo de actualización que consideres (**Periods**)
+
+
+### Workspaces Switcher
+Copia la siguiente configuración:
+
+![Ejemplo](https://raw.githubusercontent.com/blogNetting/Kali-Linux_Hack_Bar/main/images/workspace.png)
+
+# Funcionamiento
+Todos los items se actualizan solos a excepción del item de la *máquina objetivo* que para añadir su contenido es necesario llamar a la función añadida al fichero `.zshrc` con los siguientes parametros:
+
+```
+settarget <ip> <name>
+```
+
+Ejemplo:
+
+
+```
+settarget 192.168.0.1 Router
+```
