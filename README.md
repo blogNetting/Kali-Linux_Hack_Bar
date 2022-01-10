@@ -82,7 +82,7 @@ Copia la siguiente configuración:
 ![Ejemplo](https://raw.githubusercontent.com/blogNetting/Kali-Linux_Hack_Bar/main/images/workspace.png)
 
 ### Dirección IP de Objetivo al portapapeles
-Para poder copiar la dirección IP del objetivo al portapapeles se ha creado el script en python `config/shortcuts/copy_target_ip.py`.
+Para poder copiar la dirección IP del objetivo al portapapeles se ha creado el siguiente script en python `config/shortcuts/copy_target_ip.py`.
 
 Es neceario copiar dicho script al siguiente directorio:
 
@@ -90,7 +90,17 @@ Es neceario copiar dicho script al siguiente directorio:
 cp Kali-Linux_Hack_Bar/config/shortcuts /home/kali/.config/
 ```
 
-Para que el script se ejecute es necesario añadir un nuevo atajo de teclado. Para ello es necesario pulsar sobre el menu de Kali, buscar **Keyboard**, pulsar sobre la pestaña **Aplication Shortcuts**, pulsar sobre el boton **+ Add** y añadir la siguiente ruta:
+Para que el script se ejecute hay que añadir un nuevo atajo de teclado. Para ello es hay que pulsar sobre el menu de Kali Linux, buscar **Keyboard**, pulsar sobre la pestaña **Aplication Shortcuts**, pulsar sobre el boton **+ Add** y añadir la siguiente ruta:
+
+```
+python3 /home/kali/.config/shortcuts/copy_target_ip.py
+```
+
+La combinación de teclas utilizadas son las siguientes:
+
+```
+[Shift] + [Ctrl] + [O]
+```
 
 ![Ejemplo](https://raw.githubusercontent.com/blogNetting/Kali-Linux_Hack_Bar/main/images/shortcuts_1.png)
 ![Ejemplo](https://raw.githubusercontent.com/blogNetting/Kali-Linux_Hack_Bar/main/images/shortcuts_2.png)
@@ -109,3 +119,19 @@ Ejemplo:
 ```
 settarget 192.168.0.1 Router
 ```
+
+Para copiar la dirección IP del objetivo que se muestra en el panal inferior derecho hay que utilizar los siguientes atajos de teclado:
+
+Copiar al portapapeles:
+
+```
+[Shift] + [Ctrl] + [O]
+```
+
+Pegar la dirección IP:
+```
+[Shift] + [Ctrl] + [V]
+```
+
+
+
