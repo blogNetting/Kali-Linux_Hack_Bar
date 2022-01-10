@@ -81,6 +81,21 @@ Copia la siguiente configuración:
 
 ![Ejemplo](https://raw.githubusercontent.com/blogNetting/Kali-Linux_Hack_Bar/main/images/workspace.png)
 
+### Dirección IP de Objetivo al portapapeles
+Para poder copiar la dirección IP del objetivo al portapapeles se ha creado el script en python `config/shortcuts/copy_target_ip.py`.
+
+Es neceario copiar dicho script al siguiente directorio:
+
+```bash
+cp Kali-Linux_Hack_Bar/config/shortcuts /home/kali/.config/
+```
+
+Para que el script se ejecute es necesario añadir un nuevo atajo de teclado. Para ello es necesario pulsar sobre el menu de Kali, buscar **Keyboard**, pulsar sobre la pestaña **Aplication Shortcuts**, pulsar sobre el boton **+ Add** y añadir la siguiente ruta:
+
+![Ejemplo](https://raw.githubusercontent.com/blogNetting/Kali-Linux_Hack_Bar/main/images/shortcuts_1.png)
+![Ejemplo](https://raw.githubusercontent.com/blogNetting/Kali-Linux_Hack_Bar/main/images/shortcuts_2.png)
+
+
 # Funcionamiento
 Todos los items se actualizan solos a excepción del item de la *máquina objetivo* que para añadir su contenido es necesario llamar a la función añadida al fichero `.zshrc` con los siguientes parametros:
 
