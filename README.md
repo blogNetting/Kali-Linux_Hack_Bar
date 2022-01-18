@@ -109,6 +109,7 @@ La combinación de teclas utilizadas son las siguientes:
 Utilizar los procedimientos anteriores para añadir las nuevas funcionalidades. 
 * Creación de scripts para directorios `.config/panels`
 * Creación de scripts para directorios `.config/shortcuts`
+* Añadir al fichero `.zshrc`la función correspondiente.
 * Asignación de atajos de teclados para ejecución de scripts.
 
 Versión 1.1:
