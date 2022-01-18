@@ -107,12 +107,12 @@ La combinación de teclas utilizadas son las siguientes:
 
 # Nuevas funcionalidades
 Utilizar los procedimientos anteriores para añadir las nuevas funcionalidades. 
-* Creación de scripts para directorios `.config/panels`
-* Creación de scripts para directorios `.config/shortcuts`
-* Añadir al fichero `.zshrc`la función correspondiente.
+* Creación de scripts para directorio `.config/panels`
+* Creación de scripts para directorio `.config/shortcuts`
+* Añadir al fichero `.zshrc` la función correspondiente.
 * Asignación de atajos de teclados para ejecución de scripts.
 
-Versión 1.1:
+### Versión 1.1:
 * Se ha anañido un nuevo panel de **dominio objetivo**.
   * función `setdomain`.
   * [Shift] + [Ctrl] + [O]
@@ -130,8 +130,9 @@ Ejemplo:
 ```
 settarget 192.168.0.1 Router
 ```
+**Copiar&Pegar IP objetivo:**
 
-Para copiar la dirección IP del objetivo que se muestra en el panal inferior derecho hay que utilizar los siguientes atajos de teclado:
+Para copiar la dirección IP del objetivo que se muestra en el panel inferior derecho hay que utilizar los siguientes atajos de teclado:
 
 Copiar al portapapeles:
 
@@ -144,7 +145,8 @@ Pegar la dirección IP:
 [Shift] + [Ctrl] + [V]
 ```
 
-Para copiar el dominiod el objetivo que se muestra en el panal inferior derecho hay que utilizar los siguientes atajos de teclado:
+**Copiar&Pegar Dominio:**
+Para copiar el dominiod el objetivo que se muestra en el panel inferior derecho hay que utilizar los siguientes atajos de teclado:
 
 Copiar al portapapeles:
 
