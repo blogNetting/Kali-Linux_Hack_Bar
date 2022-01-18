@@ -105,6 +105,16 @@ La combinación de teclas utilizadas son las siguientes:
 ![Ejemplo](https://raw.githubusercontent.com/blogNetting/Kali-Linux_Hack_Bar/main/images/shortcuts_1.png)
 ![Ejemplo](https://raw.githubusercontent.com/blogNetting/Kali-Linux_Hack_Bar/main/images/shortcuts_2.png)
 
+# Nuevas funcionalidades
+Utilizar los procedimientos anteriores para añadir las nuevas funcionalidades. 
+* Creación de scripts para directorios `.config/panels`
+* Creación de scripts para directorios `.config/shortcuts`
+* Asignación de atajos de teclados para ejecución de scripts.
+
+Versión 1.1:
+* Se ha anañido un nuevo panel de **dominio objetivo**.
+  * función `setdomain`.
+  * [Shift] + [Ctrl] + [O]
 
 # Funcionamiento
 Todos los items se actualizan solos a excepción del item de la *máquina objetivo* que para añadir su contenido es necesario llamar a la función añadida al fichero `.zshrc` con los siguientes parametros:
@@ -133,5 +143,16 @@ Pegar la dirección IP:
 [Shift] + [Ctrl] + [V]
 ```
 
+Para copiar el dominiod el objetivo que se muestra en el panal inferior derecho hay que utilizar los siguientes atajos de teclado:
 
+Copiar al portapapeles:
+
+```
+[Shift] + [Ctrl] + [I]
+```
+
+Pegar la dirección IP:
+```
+[Shift] + [Ctrl] + [V]
+```
 
