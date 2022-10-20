@@ -11,7 +11,7 @@ El resultado final de la barra es el siguiente:
 ## Instalación
 Copia la carpeta **config/panels** del repositorio a `/home/kali/.config/panels`
 ```bash
-cp config/panels /home/kali/.config/
+cp -r config/panels /home/kali/.config/
 ```
 
 Copia el siguiente código en tu `.zshrc` (fichero zshrc en el repositorio):
