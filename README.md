@@ -33,7 +33,7 @@ Panel -> Panel Preference...
 ```
 
 Luego pulsa sobre el boton "**+**" para añadir un nuevo panel.
-El nuvo panel aparecerá en la esquina superior izquierda.
+El nuevo panel aparecerá en la esquina superior izquierda.
 
 Arrastra el panel hacia la parte inferior de la pantalla y aumenta el **Length** al máximo para que ocupe el ancho total del escritorio.
 Habilita el **Lock Panel** para que la barra quede bloqueada y no se pueda mover.
